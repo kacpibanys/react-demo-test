@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url(Satoshi-Variable.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.collapsible-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.collapsible-container {
+    width: 100%;
+    border-bottom: 1px solid black;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.collapsible {
+    font-family: Satoshi;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    width: 100%;
+    background-color: #EBE9E1;
+    color: black;
+    padding: 20px;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.collapsible-container.active {
+    background-color: #E43D12;
+    color: white;
+    height: 450px;
+    border-bottom: none;
+}
+
+
+.collapsible-container.active .collapsible {
+    background-color: #E43D12;
+    color: white;
+}
+
+.collapsible-container.active .collapsible-content {
+    background-color: #E43D12;
+    color: white;
+    transition: max-height 0.3s ease-in-out;
+
+}
+

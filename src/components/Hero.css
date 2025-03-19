@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url(Satoshi-Variable.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content {
+    display: flex;
+    width: 1280px;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+}
+
+.hero {
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+.sections {
+    display: flex;
+    padding: 0px 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    align-self: stretch;
+}
+
+.title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.motto {
+    color: #000;
+    font-family: Satoshi;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    /* 67.2px */
+}
+
+.services {
+    color: #000;
+    text-align: right;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    background: #1D1D1B;
+    width: 100%;
+}
+.aboutus-section{
+    padding-top: 57.5px;
+}
+
+
+.aboutus-section-p {
+    margin: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.aboutus-wrapper {
+    margin-bottom: 0;
+    display: flex;
+    padding-bottom: 80px;
+    /*justify-content: space-between; */
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    /* background: #1D1D1B;
+    width: 100%;
+    height: 574px; */
+
+}
+
+.collab {
+    display: flex;
+    width: 557px;
+    height: 574px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.collab p {
+    margin: 0;
+    color: #FFF;
+    font-family: Satoshi;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    align-self: stretch;
+    /* 30.8px */
+}
+
+.blog {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.blog-image {
+    display: block;
+    margin: 0 auto;
+}
+
+.blog p {
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    align-self: stretch;
+}
+
+.blog a {
+    display: block;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+

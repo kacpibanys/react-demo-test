@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url(Satoshi-Variable.ttf);
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.navbar-links li,
+.navbar-links li a,
+.navbar-logo {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    line-height: 95%;
+    letter-spacing: 0%;
+}
+
+.navbar-links ul {
+    padding-inline-start: 0;
+}
+
+
+.navbar-logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+
+
+.navbar-links {
+    width: 331px;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-links li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 0px 9px;
+    border-right: 1px black solid;
+}
+
+.navbar-links li:last-child {
+    border-right: none;
+}
+
+.navbar-links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.navbar-links li a:hover {
+    color: grey;
+}
+
+.navbar-button {
+    font-family: 'Satoshi', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 95%;
+    letter-spacing: 0%;
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    transition: all 0.3 ease 0s;
+}
+
+.navbar-button:hover {
+    background-color: grey;
+    border: grey;
+}
